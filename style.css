@@ -1,0 +1,54 @@
+.circular
+{
+  display: inline-block;
+  margin-top: 20px;
+  border: solid;
+  border-color: navy;
+  border-width: 2px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+}
+body
+{
+  background-color: whitesmoke;
+}
+
+.anchor
+{
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.15s, text-decoration 0.15s;
+}
+.anchor:hover
+{
+  color: blueviolet;
+  text-decoration: underline;
+}
+.anchor:active
+{
+  color: green;
+}
+
+.myHobbies, .myContact
+{
+  padding: 20px;
+  width: 70%;
+  justify-content: center;
+  border: solid;
+  border-width: 3px;
+  border-color: navy;
+  border-radius: 30px;
+  margin-left: 10%;
+  align-items: center;
+}
+.secondaryPagesLineBreak
+{
+  color: navy;
+  border-color: navy;
+  border-width: 1px;
+}
